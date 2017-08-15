@@ -6,14 +6,14 @@
 		<meta name="viewport" content="with=device-width, initial-scale=1">
 		<meta name="description" content="">
 		<meta name="author" content="tiboitel@student.42.fr">
-		<title>Limonade-knockout-boilerplate</title>
+		<title>TyionURL - URL Shortener and Link Management</title>
 		<link href="public/css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
 		<header>
 			<div class="container">
 				<div class="row">
-					<h3>URLShortener</h3>
+					<h3><a href="/" rel="nofollow">TyrionURL</a></h3>
 				</div>
 				<hr>
 			</div>
@@ -32,16 +32,11 @@
 			</div>
 		</footer>
 	</body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="public/js/knockout-minimize-3.4.2.js" type="text/javascript"></script>
-	<script src="public/js/sammy.min.js" type="text/javascript"></script>
-	<script src="public/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="public/js/app.js" type="text/javascript"></script>
 	<!--- START OF CPX24 CODE --->
 	<script type=text/javascript>
 	var _cpp= _cpp || [];
 	_cpp['username']	= '';
-	_cpp['source_id']	= '46815';
+	_cpp['source_id']	= '46974';
 	_cpp['pop_type']	= '2';
 	_cpp['onePer']  	= '0';
 	_cpp['freq']		= '0';   
