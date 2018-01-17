@@ -40,7 +40,7 @@ function	shorten_callback()
 		{
 			if (($code = $URLShortener->shorten_url($_POST['url'])) != false)
 			{
-				set('shortened', 'http://' . $_SERVER['HTTP_HOST'] . '/?/' . $code);
+				set('shortened', 'http://' . $_SERVER['HTTP_HOST'] . '/' . $code);
 				return (render('../public/index.html.php'));
 			}
 		}

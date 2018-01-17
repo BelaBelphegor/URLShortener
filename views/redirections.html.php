@@ -5,5 +5,8 @@
 			<a href="<?php echo (isset($link)) ? $link : '#';?>" id="forward_link"><button  class="btn btn-primary">Click here to proceed !</button></a>
 		</div>
 	</div>
-	<script type="text/javascript" src="./public/js/forward.js"/>
+	<hr>
+	<script type="text/javascript" src="./public/js/prettify-link.js"></script>
+   <!--  <script type="text/javascript" src="./public/js/forward.js"/> -->
 </section>
+</script>

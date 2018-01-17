@@ -22,6 +22,8 @@ class	URLShortener
 
 	public function		shorten_url($url)
 	{
+        if (strncmp($url, "http://", 7) != 0 && strncmp($url, "https://", 8) != 0)
+            $url = "http://" . $url;
 		if (!($this->is_valid_url($url)))
 			return (false);
 		if (($keys = array_keys($this->_urls, $url)))
@@ -47,15 +49,16 @@ class	URLShortener
 			throw new RuntimeException("Invalid URL Format.");
 			return (false);
 		}
-		//$ch = curl_init();
-		/*curl_setopt($ch, CURLOPT_URL, $url);
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-		if (curl_exec($ch) == false)
+		if (($target_dom = curl_exec($ch)) == false)
 		{
-			throw new RuntimeException("Invalid URL Target. ");
+			throw new RuntimeException("Invalid URL Target.");
 			return (false);
 		}
-		curl_close($ch);*/
+		// Extract meta data here.
+		curl_close($ch);
 		return (true);
 	}
 
