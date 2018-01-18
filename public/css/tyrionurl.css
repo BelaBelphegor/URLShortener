@@ -2,3 +2,159 @@ body
 {
 	min-height:75rem;
 }
+
+
+/* 1. Header Section. */
+
+.header-content-wrapper
+{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 789px;
+	max-width: 100%;
+}
+
+nav
+{
+	text-rendering: optimizelegibility;
+	font-weight: 600;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav.navbar-dark
+{
+	color: white;
+}
+
+.navbar
+{
+	padding-top: 0px;
+}
+
+.navbar-nav .nav-link
+{
+	color: white;
+}
+
+.navbar ul li, .navbar .navbar-brand
+{
+	margin-top: .5rem;
+}
+
+.navbar ul li:hover 
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	border-top: 4px solid white;
+	color: white;
+}
+
+.border
+{
+	border-style: 1px medium;
+}
+
+.bg-white
+{
+	background-color: #fff;
+}
+
+.navbar-brand:hover, .navbar-brand:focus
+{
+	background-color: transparent;
+	color: #fff;
+}
+
+.border
+{
+	border: 1px solid #46B29D;
+}
+
+/* */
+
+a.short-url
+{
+	line-height: 20px;
+	font-weight: 600;
+	color: #E37B40;
+
+}
+
+.info-page
+{
+	font-size: 13px;
+	line-height: 20px;
+	margin-top: 1px;
+}
+
+.article-title
+{
+	font-size: 16px;
+	line-height: 19px;
+	display: inline-block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #444;
+}
+
+.smaller
+{
+	color: #9b9b9b;
+	font-size: 14px;
+	line-height: 17px;
+	display: inline-block;
+}
+
+.bg-primary, .btn-primary
+{
+	background-color: #46B29D !important;
+}
+
+.btn-primary
+{
+	border-color: #46B29D;
+}
+
+header.masthead
+{
+	min-height: 597px;
+}
+
+/* Typography */
+
+.page-title
+{
+	font-size: 48px;
+	line-height: 56px;
+	margin: 0 0 8px 0;
+	font-weight: 500;
+}
+
+.header-description
+{
+	font-size: 21px;
+	line-height: 19px;
+}
+
+
+/* @media query */
+
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+{
+	.container
+	{
+		max-width: 970px;
+	}
+
+	header.masthead
+	{
+		min-height: 597px;
+	}
+}

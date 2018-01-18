@@ -36,10 +36,12 @@ function	shorten_callback()
 	$URLShortener = option('url_shortener');
 	if (isset($_POST['url']) && !empty($_POST['url']))
 	{
+		$_POST['url'] = htmlspecialchars($_POST['url']);
 		try
 		{
 			if (($code = $URLShortener->shorten_url($_POST['url'])) != false)
 			{
+				set('origin_url', $_POST['url']);
 				set('shortened', 'http://' . $_SERVER['HTTP_HOST'] . '/' . $code);
 				return (render('../public/index.html.php'));
 			}

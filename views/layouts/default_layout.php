@@ -7,15 +7,19 @@
 		<meta name="description" content="Get the best from your audience by releasing the power of your links. Create a powerful social network for your business !">
 		<meta name="author" content="tiboitel@student.42.fr">
 		<title>TyrionURL | URL Shortener and Link Management Platform</title>
+		<meta property="og:title" content="">
+		<meta property="og:type" content="">
+		<meta property="og:url" content="">
+		<meta property="og:image" content="https://www.cffc.org.nz/assets/Uploads/rv-resources-links-icon.png">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	</head>
 	<body>
-		<nav class="navbar navbar-toggleable-md navbar-expand-md navbar-light bg-light fixed-top">
+		<nav class="navbar navbar-toggleable-md navbar-expand-md bg-primary navbar-dark fixed-top">
 			<div class="container">
-		  		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+		  		<button class="navbar-toggler bg-primary rounded" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 		  		</button>
-		  		<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+		  		<div class="collapse navbar-collapse" id="navbarTogglerDemo">
 					<a class="navbar-brand mb-0 h1" href="#">TyrionURL</a>
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 						<li class="nav-item active">
@@ -39,10 +43,10 @@
 				</div>
 			</div>
 		</footer>
-		<link rel="stylesheet" async refer href="./public/css/tyrionurl.css"/>
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>	
+		<link rel="stylesheet" async refer href="./public/css/tyrionurl.css"/>
 	</body>
   	<!--- START OF CPX24 CODE --->
 <!--        <script type=text/javascript>

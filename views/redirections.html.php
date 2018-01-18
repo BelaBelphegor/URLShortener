@@ -6,7 +6,5 @@
 		</div>
 	</div>
 	<hr>
-	<script type="text/javascript" src="./public/js/prettify-link.js"></script>
-   <!--  <script type="text/javascript" src="./public/js/forward.js"/> -->
+   	<script type="text/javascript" src="./public/js/forward.js"/>
 </section>
-</script>
