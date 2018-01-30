@@ -16,29 +16,29 @@
 	<body>
 		<nav class="navbar navbar-toggleable-md navbar-expand-md bg-primary navbar-dark fixed-top">
 			<div class="container">
-		  		<button class="navbar-toggler bg-primary rounded" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler bg-primary rounded" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
-		  		</button>
-		  		<div class="collapse navbar-collapse" id="navbarTogglerDemo">
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo">
 					<a class="navbar-brand mb-0 h1" href="#">TyrionURL</a>
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 						<li class="nav-item active">
 							<a class="nav-link" href="#Home">Home<span class="sr-only">(current)</span></a>
-					  	</li>
-					  	<li class="nav-item active">
+						</li>
+						<li class="nav-item active">
 							<a class="nav-link" href="#About">About</a>
-					  	</li>
+						</li>
 					</ul>
-		  		</div>
+				</div>
 			</div>
 		</nav>
 		<?=$content;?>
 		<footer class="footer">
 			<div class="container">
 				<div class="row text-center">
-					<div class="col-sm-12">
+					<div class="col">
 						<hr>
-						<p>2017, <a href="https://github.com/BelaBelphegor/limonade-knockout-boilerplate">Limonade-Knockout-Boilerplate</a> powered</a> by Limonade, Knockout & Sammy. MIT License.</p>
+						<p class="footer-attribution">© 2018 TyrionURL made with love by Tiboitel</p>
 					</div>
 				</div>
 			</div>
@@ -49,7 +49,7 @@
 		<link rel="stylesheet" async refer href="./public/css/tyrionurl.css"/>
 	</body>
   	<!--- START OF CPX24 CODE --->
-<!--        <script type=text/javascript>
+        <script type=text/javascript>
         var _cpp= _cpp || [];
         _cpp['username']	= '';
         _cpp['source_id']	= '46974';
@@ -69,6 +69,6 @@
           gtag('js', new Date());
         
           gtag('config', 'UA-99905531-2');
-        </script> -->
+        </script>
 
 </html>

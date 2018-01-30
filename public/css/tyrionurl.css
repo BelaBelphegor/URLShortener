@@ -131,6 +131,34 @@ header.masthead
 	padding: 0em 1em 1em 0.6em;
 }
 
+.page-home-link-shortener
+{
+	text-align: center;
+	background-color: #324D5C;
+}
+
+.page-home-link-shortener-number
+{
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	perspective: 200px;	
+	background-color: #E37B40;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: wht-box-shadow: inset 0px -32px 0px 0px rgba(0,0,0,0.10);
+	-moz-box-shadow: inset 0px -32px 0px 0px rgba(0,0,0,0.10);
+	box-shadow: inset 0px -32px 0px 0px rgba(0,0,0,0.10);
+	padding: 20px;
+	color: white;
+}
+
+.page-home-link-shortener h2
+{
+	color: white;
+}
+
 /* Typography */
 
 .page-title
@@ -172,6 +200,13 @@ header.masthead
 
 .shorten-brand-case > p
 {
+	color: #a3aaae;
+}
+
+/* . Footer */
+.footer-attribution
+{
+	font-size: 0.750em;
 	color: #a3aaae;
 }
 

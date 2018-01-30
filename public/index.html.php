@@ -59,14 +59,34 @@
 		<div class="row text-center">
 			<div class="col shorten-brand-case">
 				<h3>Brand</h3>
-				<p>When I'm going to make an another story, an another product</p>
+				<p>Eternity is what makes a link valuable and great. Create your own custom links you can share on every device and channel. For ever.</p>
 			</div>
 			<div class="col shorten-brand-case">
 				<h3>Track</h3>
+				<p>Track individual link analytics and measure, campaign performance across teams and channels, all in one location. All in real-time.</p>
 			</div>
 			<div class="col shorten-brand-case">
 				<h3>Custom Previews</h3>
+					<p>Optimize link posts with custom sharing images and text on Facebook, Twitter, Linkedin and other platforms.</p>
 			</div>
 		</div>	
 	</div>
+	<div class="p-4 container-fluid page-home-link-shortener">
+		<div class="page-home-link-shortener-counter">
+			<div class="page-home-link-shortener-number">
+				1
+			</div>
+			<div class="page-home-link-shortener-number">
+				1
+			</div>
+			<div class="page-home-link-shortener-number">
+				1
+			</div>
+			<div class="page-home-link-shortener-number">
+				1
+			</div>
+		</div>
+		<h2 class="text-center mt-3">Links powered by TyrionURL.</h2>
+	</div>
 </section>
+
