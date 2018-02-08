@@ -28,6 +28,13 @@ function before()
 function 	index_callback()
 {
 	$URLShortener = option('url_shortener');
+	$count = $URLShortener->length();
+	$count = sprintf("%04d", $count);
+	// Need to proper this shit with a while
+	set('unit', substr($count, -1));
+	set('decade', substr($count, -2, -1));
+	set('hundred', substr($count, -3, -2));
+	set('thousand', substr($count, -4, -3));
 	return render('../public/index.html.php');
 }
 

@@ -74,16 +74,16 @@
 	<div class="p-4 container-fluid page-home-link-shortener">
 		<div class="page-home-link-shortener-counter">
 			<div class="page-home-link-shortener-number">
-				1
+			<?=h ($thousand); ?>
 			</div>
-			<div class="page-home-link-shortener-number">
-				1
+			<div class="page-home-link-shortener-number">	
+				<?=h($hundred); ?>
 			</div>
-			<div class="page-home-link-shortener-number">
-				1
+			<div class="page-home-link-shortener-number">	
+				<?=h($decade); ?>
 			</div>
-			<div class="page-home-link-shortener-number">
-				1
+			<div class="page-home-link-shortener-number">	
+				<?= h($unit); ?>
 			</div>
 		</div>
 		<h2 class="text-center mt-3">Links powered by TyrionURL.</h2>

@@ -74,5 +74,10 @@ class	URLShortener
 		} while ($this->get_url($code) !== false);
 		return ($code);
 	}
+
+	public function		length()
+	{
+		return (count($this->_urls));
+	}
 }
 ?>
